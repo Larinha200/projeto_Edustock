@@ -1,4 +1,4 @@
-.conteiner{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
+@import url('../css/global.css');
+@import url('../css/header.css');
+@import url('../css/menu_lateral.css');
+@import url('../css/centro.css');

@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:203px;
+}
+/* Root (Definir as Cores) */
+:root {
+    --cor-de-fundo-vermelha:#e30613;
+    --cor-de-fundo-cinza:#f8fafc;
+    --texto-cinza:#64748b;
+    --texto-petro:#0f172a;
+
+}
