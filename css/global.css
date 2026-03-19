@@ -13,7 +13,7 @@
     --texto-cinza-escuro:#475569;
     --texto-petro:#0f172a;
     --background-branco:#ffffff;
-
+    --vermelho-transparente:#e3061310;
     --h1-size:20px;
     --size:16px
 }
@@ -21,7 +21,7 @@
 
 .conteiner{
     display: grid;
-    grid-template-columns: 17% 83%;
+    grid-template-columns:255px 1fr ;
     max-height: 100%;
     
 }
