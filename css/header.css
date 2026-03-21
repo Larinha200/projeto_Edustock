@@ -1,0 +1,30 @@
+.coluna2{
+    display: grid;
+    grid-template-rows:64px 1fr ;
+}
+
+.barra_pesquisa{
+    background-color: var(--barra-de-pesquisa);
+    width: 448px;
+    height: 36px;
+    border-radius: 8px ;
+    padding-top: 5px;
+    padding-left: 8px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.barra_pesquisa > input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.barra_pesquisa > svg {
+    padding-top: 5px;
+}
+
+.header_coluna2{
+    display: grid;
+    grid-template-columns: 1fr 277px;
+}

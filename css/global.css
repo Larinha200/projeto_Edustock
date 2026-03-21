@@ -9,13 +9,29 @@
 :root {
     --cor-de-fundo-vermelha:#e30613;
     --cor-de-fundo-cinza:#f8fafc;
+    --barra-de-pesquisa:#f1f5f9;
     --texto-cinza-claro:#64748b;
     --texto-cinza-escuro:#475569;
     --texto-petro:#0f172a;
     --background-branco:#ffffff;
     --vermelho-transparente:#e3061310;
-    --h1-size:20px;
-    --size:16px
+    --borda:1px solid #e2e8f0;
+    --cinza-link:#334155;
+
+    --size1:400;
+    --size2:500;
+    --size3:600;
+    --size4:700;
+
+    --tamanho1:12px;
+    --tamanho2:14px;
+    --tamanho3:16px;
+    --tamanho4:20px;
+    --tamanho5:24px;
+    --tamanho6:30px;
+   
+     
+    
 }
 
 
