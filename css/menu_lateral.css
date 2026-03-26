@@ -1,5 +1,8 @@
 .coluna1{
-    border-right:var(--borda) ;
+    border-right: var(--borda);
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* ocupa toda a altura da tela */
 }
 .corpo_coluna1 {
     
@@ -47,15 +50,14 @@
 
 }
 .f_coluna1{
-    margin-top: 210px ;
+    margin-top: auto; 
     height: 75.5px;
     width: 223px;
-    padding: 20px 20px;
+    padding: 20px;
     border-radius: 15px;
     background-color: var(--cor-de-fundo-cinza);
     margin-left: 15px;
     margin-bottom: 15px;
-   
 }
 .f_coluna1 > p{
     font-size: var(--tamanho1);
