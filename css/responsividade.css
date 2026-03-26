@@ -1,0 +1,192 @@
+@media (max-width: 768px){
+
+    /* layout geral */
+    .conteiner{
+        display: block;
+    }
+
+    .coluna1{
+        display: none;
+    }
+
+    .coluna2{
+        width: 100%;
+    }
+
+    /* HEADER estilo app */
+    .header_coluna2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .barra_pesquisa{
+        width: 70%;
+        height: 32px;
+        margin: 0;
+    }
+
+    .perfil_texto{
+        display: none;
+    }
+
+    /* conteúdo */
+    .corpo_coluna2{
+        margin: 10px;
+    }
+
+    .pt1{
+        display: block;
+    }
+
+    .textos h2{
+        font-size: 20px;
+    }
+
+    .textos p{
+        font-size: 13px;
+    }
+
+    /* CARDS (igual imagem) */
+    .cards{
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 0;
+    }
+
+    .card{
+        padding: 16px;
+        border-radius: 12px;
+        box-shadow: none;
+        border: 1px solid #eee;
+    }
+
+    /* BOTÃO FLUTUANTE */
+    .botao{
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        z-index: 1000;
+    }
+
+    .botao p{
+        display: none;
+    }
+
+    /* esconder tabela (na imagem não aparece) */
+    .table{
+        display: none;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    /* layout geral */
+    .conteiner{
+        grid-template-columns: 80px 1fr;
+    }
+
+    /* sidebar reduzida (só ícones) */
+    .coluna1{
+        align-items: center;
+    }
+
+    .head_coluna1 h1,
+    .corpo_coluna1 a,
+    .f_coluna1{
+        display: none;
+    }
+
+    .corpo_coluna1{
+        margin: 0;
+        justify-items: center;
+    }
+
+    /* header mais compacto */
+    .header_coluna2{
+        grid-template-columns: 1fr auto;
+        padding: 10px;
+    }
+
+    .barra_pesquisa{
+        width: 60%;
+        height: 34px;
+        margin-left: 10px;
+    }
+
+    /* perfil menor */
+    .perfil_texto{
+        display: none;
+    }
+
+    /* conteúdo */
+    .corpo_coluna2{
+        margin: 20px;
+    }
+
+    /* topo */
+    .pt1{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .botao{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* CARDS (igual imagem tablet) */
+    .cards{
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 0;
+    }
+
+    .card{
+        padding: 20px;
+        border-radius: 14px;
+    }
+
+    /* botão flutuante (igual imagem tablet) */
+    .botao{
+        position: fixed;
+        bottom: 90px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .botao p{
+        display: none;
+    }
+
+    /* tabela escondida (igual imagem) */
+    .table{
+        display: none;
+    }
+
+    /* remove menu inferior (tablet não usa) */
+    .bottom-nav{
+        display: none;
+    }
+
+}
